@@ -13,10 +13,50 @@ main section{
     justify-content: center;
 }
 main img{
-    width: 300px;
+    width: 250px;
 
 
 }
 p img{
-    width: 40px;
+    width: 10px;
+}
+.tabela{
+    display: flex;
+    justify-content: center;
+    }
+table{
+    width: 30%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+    padding: 10px;
+}
+#centro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+form label {
+    margin-bottom: 5px;
+}
+form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
